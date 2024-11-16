@@ -11163,11 +11163,15 @@ Our goal is to build machine learning models so we can predict whether a custome
 <ol start="4">
 <li>How does the change in transaction amount between Q4 and Q1 (<code>total_ct_change_Q4_Q1</code>) vary by the customer's account status (<code>Attrition_Flag</code>)? <br/></li>
 </ol>
-<p><strong>Ans:</strong> 75% existing customers reducing the number of transactions at least by 16.7% in Q4 compared to Q1, where as, 75% attrited customer reducing the number of transactions at least by 30.8% in Q4 compared to Q1.
-5. How does the number of months a customer was inactive in the last 12 months (<code>Months_Inactive_12_mon</code>) vary by the customer's account status (<code>Attrition_Flag</code>)? <br/>
-<strong>Ans:</strong> 75% customers who attrited were inactive at least 2 months or more in the last 12 month, where as, the customers who stayed were inactive at least 1 month or more. There are some outliers for attrited customers. 51 attrited customers were inactive more than 4 months. There are 15 attrited customers who were not inactive over the 12 months.
-6. What are the attributes that have a strong correlation with each other? <br/>
-<strong>Ans:</strong> <code>Months_on_book</code> has strong positive correlation with <code>Customer_Age</code>. <code>Credit_Limit</code> has the strogest postive correlation of 1 with <code>Avg_Open_To_Buy</code>. <code>Total_Trans_Amt</code> has strong postive correlation with <code>Total_Trans_CT</code>. <code>Avg_Utilization_Ratio</code> has moderate postive correlation with <code>Total_Revolving_Bal</code>.<br/>
+<p><strong>Ans:</strong> 75% existing customers reducing the number of transactions at least by 16.7% in Q4 compared to Q1, where as, 75% attrited customer reducing the number of transactions at least by 30.8% in Q4 compared to Q1.</p>
+<ol start="5">
+<li>How does the number of months a customer was inactive in the last 12 months (<code>Months_Inactive_12_mon</code>) vary by the customer's account status (<code>Attrition_Flag</code>)? <br/></li>
+</ol>
+<p><strong>Ans:</strong> 75% customers who attrited were inactive at least 2 months or more in the last 12 month, where as, the customers who stayed were inactive at least 1 month or more. There are some outliers for attrited customers. 51 attrited customers were inactive more than 4 months. There are 15 attrited customers who were not inactive over the 12 months.</p>
+<ol start="6">
+<li>What are the attributes that have a strong correlation with each other? <br/></li>
+</ol>
+<p><strong>Ans:</strong> <code>Months_on_book</code> has strong positive correlation with <code>Customer_Age</code>. <code>Credit_Limit</code> has the strogest postive correlation of 1 with <code>Avg_Open_To_Buy</code>. <code>Total_Trans_Amt</code> has strong postive correlation with <code>Total_Trans_CT</code>. <code>Avg_Utilization_Ratio</code> has moderate postive correlation with <code>Total_Revolving_Bal</code>.<br/>
 <code>Credit_Limit</code> has moderate negative correlation with <code>Avg_Utilization_Ratio</code>. <code>Avg_Open_To_Buy</code> has moderate negative correlation with <code>Avg_Utilization_Ratio</code>.<br/>
 From the Chi-squared test we observed that <code>Gender</code> and <code>Income_category</code> has an effect on our target variable <code>Attrition_Flag</code></p>
 </div>
